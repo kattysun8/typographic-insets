@@ -72,6 +72,35 @@ main > p:first-child::first-line {
   font-style: italic;
 }
 
+figure {
+  float: right;
+  width: 50%;
+  margin-right: -160px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
+
+img {
+  margin-top: 0.5em;
+}
+
+figcaption {
+  font-style: italic;
+  padding-top: 0.5em;
+}
+
+blockquote {
+  float: left;
+  margin: 0.5em;
+  width: 50%;
+  font-size: 1.7em;
+  color: #666;
+  margin-left: -160px;
+  text-align: right;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
+
 footer {
   padding: 1.5rem 0;
 
